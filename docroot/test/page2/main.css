@@ -1,0 +1,29 @@
+
+  h1 {
+    text-align:center;
+  }
+  form {
+      text-align: center;
+  }
+  input {
+      text-align: center;
+  }
+  #userId {
+      width:250px;
+  }
+  #next {
+      width: 150px;
+      padding: 5px 5px;
+      border-radius: 1px;
+      border: 0.5px solid gray;
+      box-shadow: 0 3px 6px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+  }
+  #next:hover {
+    background-color: #FFFFFF;
+  }
+  #next.active {
+    background-color: blue;
+    color: white;
+    box-shadow: 0 2px #666;
+    transform: translateY(3px);
+  }
